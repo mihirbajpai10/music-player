@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <audio id="audio" controls>
+            <source src="song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="playlist">
+            <ul id="songList">
+                <!-- Add more songs to the playlist as list items -->
+                <li><a href="song1.mp3">song 1 </a></li>
+                <li><a href="song2.mp3">song 2</a></li>
+                <li><a href="song3.mp3">song 3</a></li>
+                <!-- Add more songs as needed -->
+            </ul>
+        </div>
+        <button id="playPauseBtn">Play</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
